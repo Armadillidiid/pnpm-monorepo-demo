@@ -3,8 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "main": "dist/ui.js",
-  "types": "dist/src/main.d.ts",
+  "main": "./dist/ui.js",
+  "types": "./dist/src/main.d.ts",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
