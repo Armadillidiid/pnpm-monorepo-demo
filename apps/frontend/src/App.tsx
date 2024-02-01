@@ -1,15 +1,6 @@
 import { Button } from "@monorepo/ui";
 
 const App = () => {
-  return (
-    <Button
-      style={{
-        backgroundColor: "blue",
-        padding: "10px",
-      }}
-    >
-      Hello World
-    </Button>
-  );
+  return <Button className="bg-yellow-500">Hello World</Button>;
 };
 export default App;
